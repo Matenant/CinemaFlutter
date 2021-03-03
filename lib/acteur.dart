@@ -61,8 +61,7 @@ class ActorPageState extends State<ActorPage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) =>
-                        ActorDetailPage(acteurs[index]["id"]),
+                    builder: (context) => ActorDetailPage(acteurs[index]["id"]),
                   ),
                 );
               },
